@@ -2,6 +2,9 @@ import os
 from langchain_together import Together
 from langchain.prompts import PromptTemplate
 
+# Creating a Chat Prompt Template with a Single Placeholder
+# Using translate as an example to demo singl placeholder prompts
+
 # 1. Get the Together AI API Key.
 API_KEY = os.getenv("TOGETHER_API_KEY")
 
